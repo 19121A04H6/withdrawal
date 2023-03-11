@@ -1,0 +1,92 @@
+.app-container {
+  display: flex;
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.account-container {
+  background-color: #150b3e;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.profile {
+  background-color: #c7d2fe;
+  font-size: 24px;
+  font-family: 'Roboto';
+  border-radius: 30px;
+  border-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-container {
+    height: 70%;
+    width: 40%;
+  }
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-heading {
+  color: #585076;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.count {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.withdrawal-container {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.choose-sum {
+  color: #585076;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
